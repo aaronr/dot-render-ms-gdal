@@ -95,6 +95,8 @@ OK... to do this I just ran some quick command line foo on it:
         3m18.192s
         0m0.364s
 
+
+
 __3 minutes and 20 seconds.__
 
 ![dots.png](./dots.png?raw=true)
@@ -125,4 +127,5 @@ __3 minutes and 20 seconds.__
 
 __1 minute 35 seconds__
 
+![dots_gdal.png](./dots_gdal.png?raw=true)
 
