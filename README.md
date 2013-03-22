@@ -111,15 +111,15 @@ __3 minutes and 20 seconds.__
 
 - Run gdal_translate to convert the tiff to PNG
 
-aaronr@aaron-zlinux-office1:~/github/dot-render-ms-gdal$ time gdal_translate -of "PNG" dots_gdal.tiff dots_gdal.png
-Input file size is 800, 800
-Warning 6: PNG driver doesn't support data type Float64. Only eight bit (Byte) and sixteen bit (UInt16) bands supported. Defaulting to Byte
-
-0...10...20...30...40...50...60...70...80...90...100 - done.
-
-0m0.063s
-0m0.052s
-0m0.008s
+        aaronr@aaron-zlinux-office1:~/github/dot-render-ms-gdal$ time gdal_translate -of "PNG" dots_gdal.tiff dots_gdal.png
+        Input file size is 800, 800
+        Warning 6: PNG driver doesn't support data type Float64. Only eight bit (Byte) and sixteen bit (UInt16) bands supported. Defaulting to Byte
+        
+        0...10...20...30...40...50...60...70...80...90...100 - done.
+        
+        0m0.063s
+        0m0.052s
+        0m0.008s
 
 
 __1 minute 35 seconds__
