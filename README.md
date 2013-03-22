@@ -97,6 +97,7 @@ OK... to do this I just ran some quick command line foo on it:
 
 __3 minutes and 20 seconds.__
 
+![dots.png](./dots.png?raw=true)
 
 ## GDAL Rasterize
 
