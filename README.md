@@ -13,6 +13,17 @@ Well, I got home and thought about two other ways to render this monster CSV to 
 
 - Wrap the CSV in an OGR VRT and then run gdal_rasterize on it and let GDAL create an image
 
+## Notes
+
+- These tests where done on a Linux desktop with a 10k rpm drive, 8-core i7, and 24 gigs of RAM
+
+- Both of these cases (which use OGR and GDAL at the core) just pegged 1 CPU the whole time when rendering.
+
+- I have not had time to do any real benckmarking other than what is here.
+
+- I was not able to get Mapnik installed on this machine so I was not able to run Danes tests... yet.
+
+
 ## Prepare the data
 One issue is that I am trying to do all this without actually writing code... instead using existing tools.  To get OGR to be able to read the data I needed to pre-process the CSV file to convert the encoded Lat and Lon into normal values that OGR would be happy with.
 
