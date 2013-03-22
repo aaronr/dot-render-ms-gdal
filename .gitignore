@@ -1,0 +1,9 @@
+*~
+
+# We ignore the data files used
+us-west_processed.csv
+us-west.csv.xz
+us-west.csv
+
+# Ignore the mapserver error files
+ms_error.txt

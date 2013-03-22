@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="us-west_processed">
+        <SrcDataSource>us-west_processed.csv</SrcDataSource>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>WGS84</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Lon" y="Lat"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
